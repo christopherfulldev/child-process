@@ -1,15 +1,13 @@
-# Aplicação que encontra itens duplicados dentro de um arquivo .csv
+# Application that finds duplicate items within a file.
 
-Aplicação que lê um arquivo(.csv neste caso) que simula um database. Trafega pelos dados dentro do arquivo para encontrar duplicatas baseando-se em um ID. 
+Application that reads a file (.csv in this case) that simulates a database. Traffic through the data within the file to find duplicates based on an ID.
 
-## Instalando
-
-Instale os pacotes necessários.
+## Install
 
     npm install
 
-## Rodando
+## Running
 
     npm start 
 
-- É possível duplicar outros itens dentro do arquivo All_Pokemon.csv (desde que mantido padrão) e verificar se o programa encontra o item. Por default já exitem itens em duplicata.
+- You can duplicate other items within the file All_Pokemon.csv (as long as kept default) and verify that the program finds the item. By default there are already duplicate items.
