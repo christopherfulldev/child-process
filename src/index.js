@@ -22,7 +22,6 @@ for (let index = 0; index < PROCESS_COUNT; index++) {
 		console.log(`process ${child.pid} has an error`, error);
 		processes.exit(1);
 	});
-
 	child.on('message', (msg) => {		
 		if (replicatedData.includes(msg.Name)) return;
 
@@ -50,6 +49,7 @@ await pipeline(
 	Writable({
 		write(chunk, enc, callback) {
 			const chosenProcess = getProcess();
+			
 			chosenProcess.send(JSON.parse(chunk));
 			callback();
 		},
