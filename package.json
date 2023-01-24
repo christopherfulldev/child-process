@@ -1,0 +1,20 @@
+{
+  "name": "process-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Christopher Pinto",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
