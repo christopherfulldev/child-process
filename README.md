@@ -1,6 +1,6 @@
-# Aplicação que lê um arquivo(.csv neste caso) que simula um database. Trafega pelos dados dentro do arquivo para encontrar duplicatas baseando-se em um ID. 
+# Aplicação que encontra itens duplicados dentro de um arquivo .csv
 
-Aplicação desenvolvida para treino utilizando child-process para processamento em memoria.
+Aplicação que lê um arquivo(.csv neste caso) que simula um database. Trafega pelos dados dentro do arquivo para encontrar duplicatas baseando-se em um ID. 
 
 ## Instalando
 
